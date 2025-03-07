@@ -1,4 +1,4 @@
-local speedModule = require(game.ReplicatedStorage:WaitForChild("SpeedModule"))
+local speedModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/Emerson2-creator/Gui/refs/heads/main/Modules/ClientSetModule.lua"))()
 
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
