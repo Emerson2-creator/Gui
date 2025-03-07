@@ -1,4 +1,3 @@
-local speedModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/rogeriodec_games/roblox-snippets/main/Modules/ClientSetModule.lua"))()
+local speedModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/Emerson2-creator/Gui/refs/heads/main/lib/ClientLib.lua"))()
 
-local speed = speedModule.WalkSpeed()
-
+speedModule.WalkSpeed()
