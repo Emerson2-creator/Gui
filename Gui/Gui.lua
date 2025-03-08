@@ -3,4 +3,5 @@ local speedModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/E
 local function Speed()
     speedModule.Speed()
 end
+return Speed
 -- End of snippet
